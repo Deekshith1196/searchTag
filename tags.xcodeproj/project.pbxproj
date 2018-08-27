@@ -13,6 +13,9 @@
 		ECD1B5542133FFB300EF40BC /* tags.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECD1B5522133FFB300EF40BC /* tags.xcdatamodeld */; };
 		ECD1B5562133FFB500EF40BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD1B5552133FFB500EF40BC /* Assets.xcassets */; };
 		ECD1B5592133FFB500EF40BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD1B5572133FFB500EF40BC /* LaunchScreen.storyboard */; };
+		ECD1B5612134081700EF40BC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1B5602134081700EF40BC /* TableViewCell.swift */; };
+		ECD1B563213422EE00EF40BC /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1B562213422EE00EF40BC /* CollectionViewController.swift */; };
+		ECD1B565213422FE00EF40BC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD1B564213422FE00EF40BC /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		ECD1B5552133FFB500EF40BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECD1B5582133FFB500EF40BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECD1B55A2133FFB500EF40BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECD1B5602134081700EF40BC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		ECD1B562213422EE00EF40BC /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		ECD1B564213422FE00EF40BC /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				ECD1B54B2133FFB300EF40BC /* AppDelegate.swift */,
 				ECD1B54D2133FFB300EF40BC /* ViewController.swift */,
+				ECD1B564213422FE00EF40BC /* CollectionViewCell.swift */,
+				ECD1B5602134081700EF40BC /* TableViewCell.swift */,
+				ECD1B562213422EE00EF40BC /* CollectionViewController.swift */,
 				ECD1B54F2133FFB300EF40BC /* Main.storyboard */,
 				ECD1B5552133FFB500EF40BC /* Assets.xcassets */,
 				ECD1B5572133FFB500EF40BC /* LaunchScreen.storyboard */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECD1B54E2133FFB300EF40BC /* ViewController.swift in Sources */,
+				ECD1B5612134081700EF40BC /* TableViewCell.swift in Sources */,
+				ECD1B565213422FE00EF40BC /* CollectionViewCell.swift in Sources */,
 				ECD1B54C2133FFB300EF40BC /* AppDelegate.swift in Sources */,
 				ECD1B5542133FFB300EF40BC /* tags.xcdatamodeld in Sources */,
+				ECD1B563213422EE00EF40BC /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57A9336599;
 				INFOPLIST_FILE = tags/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57A9336599;
 				INFOPLIST_FILE = tags/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
